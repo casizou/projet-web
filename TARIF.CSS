@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.donner_detail {
+    float: right;
+    
+}
+.demande_detail{
+    white-space: pre-line;
+    font-size: 20px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 200px;
+}
+.footer h2{
+    color:rgb(204, 171, 87);
+    width: 65px;
+}
+.footer  p{
+    color:white;
+}
+.footer h3{
+    color:rgb(204, 171, 87);
+    width: 35px;
+}

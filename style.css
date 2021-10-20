@@ -1,0 +1,175 @@
+ *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    display: flex;
+    background-color: #231F20;
+    width: 100%;
+    height: 5.0rem;
+    align-items: center;
+    padding: 2rem;
+    justify-content: space-around;
+}
+.block_lien{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+.lien{
+    display: flex;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+.lien:hover{
+    color: rgb(236, 212, 149);
+}
+.naya{
+    width: 100%;
+    margin: 100%;
+    
+}
+.block_salon_beaute{
+    background: url("bandeau.jpg") no-repeat center;
+    background-size: 100%;
+    height: 400px;
+    width: 100%;
+    padding-top: 10px;
+
+
+}
+.salon_beaute{
+    color: rgb(247, 201, 85);
+    padding-top: 100px;
+    margin-top: 1.5px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    font-size: 40px;
+    margin-right: 210px;
+}
+.salon_para{
+    color: white;
+    padding-bottom: 100px;
+    padding-left: 25px;
+    font-size: 19px;
+    margin-top: 1.5%; 
+    margin-left: 0.1%;
+    margin-right: 15%;
+    margin-bottom: 80%;
+}
+
+.paragraphe{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(204, 171, 87);
+    background-color: 400%;
+    padding-left: 17%;
+    font-size: 20px; 
+    height: 80px; 
+}     
+.ferme{
+    font-size: 15px;
+    padding-top: 50px;
+    position: relative;
+    display: inline;
+    right: 590px;
+}    
+.prestation {
+    flex:1;
+    position:relative;
+    color:rgb(201, 165, 76);
+    width: 100%;
+    height: 20rem;
+    word-spacing: normal;
+    line-height: 3em;
+    background-size: 15% 40%;
+    padding-left: 15rem;
+    background: 200%;
+    background-color: rgba(9, 10, 10, 0.5);
+}
+.Zone{
+    background-color:rgb(14, 12, 12);
+    display: grid;
+    grid-row: gad 2px;
+    padding-top: 5%;
+}
+.perr{
+    background-color: rgb(46, 43, 43);
+    padding-left: 20%;
+}
+.coiff{
+    background-color: rgb(46, 43, 43);
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.im{
+    float:left;
+    margin-top: 10px;
+    padding-top:10px ;
+}
+.coiff table{
+    width: 100%;
+}
+.tis{
+    font-size:30px;
+    color:rgb(204, 171, 87);
+}
+.sal{
+    color:white;
+    font-size: 17px;
+    font-family:Arial;
+}
+.ass{
+    color: white;
+    font-size: 17px;
+    font-family: Arial;
+}
+.typ{
+    color:rgb(204, 171, 87);
+    font-size: 20px;
+}
+.chev{
+    color:rgba(5, 7, 7, 0.5);
+    font-size: 20px;
+    
+}
+.pro{
+    color:rgba(9, 10, 10, 0.5);
+    color:rgb(204, 171, 87);
+    font-size: 20px;
+
+}
+.gam{
+    color: rgba(9, 10, 10, 0.5);
+    font-size: 20px;
+}
+.acces{
+    font-size: 20px;
+    margin-top: 10%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 200px;
+}
+.footer h2{
+    color:rgb(204, 171, 87);
+    width: 65px;
+}
+.footer  p{
+    color:white;
+}
+.footer h3{
+    color:rgb(204, 171, 87);
+    width: 35px;
+}
